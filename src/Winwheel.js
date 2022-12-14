@@ -2340,3 +2340,11 @@ function winwheelResize()
     // Now re-draw the wheel to ensure the changes in size are rendered.
     winwheelToDrawDuringAnimation.draw();
 }
+
+module.exports = {
+    Animation,
+    PointerGuide,
+    Pin,
+    Segment,
+    Winwheel,
+};
