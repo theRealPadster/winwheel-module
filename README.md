@@ -40,7 +40,7 @@ let theWheel = new Winwheel({
 ```
 
 ## More examples
-See the /examples folder for examples of some of the types of things you can create with winwheel-module, to see these examples in action please visit the examples section on the original winwheel website http://dougtesting.net/winwheel/examples
+To see more examples, please visit the examples section on the original winwheel website http://dougtesting.net/winwheel/examples
 
 ## Tutorials and other documentation
 Please visit http://dougtesting.net/winwheel/docs to see a complete set of tutorials on how to use winwheel-module as well as other documentation such as class references.
