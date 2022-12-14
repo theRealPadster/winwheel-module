@@ -1,17 +1,14 @@
 {
-  "name": "@theRealPadster/winwheel-module",
+  "name": "winwheel-module",
   "version": "2.8.0",
   "type": "module",
-  "description": "Create spinning prize wheels on HTML canvas with winwheel",
+  "description": "Create spinning prize wheels on HTML canvas with winwheel, as a module",
   "main": "index.js",
-  "directories": {
-    "example": "examples"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/theRealPadster/winwheel-module.git"
   },
-  "author": "zarocknz",
+  "author": "theRealPadster",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/theRealPadster/winwheel-module/issues"
