@@ -1,9 +1,12 @@
 {
   "name": "winwheel-module",
   "version": "2.8.0",
-  "type": "module",
   "description": "Create spinning prize wheels on HTML canvas with winwheel, as a module",
-  "main": "index.js",
+  "main": "dist/Winwheel.js",
+  "scripts": {
+    "watch": "parcel watch",
+    "build": "parcel build"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/theRealPadster/winwheel-module.git"
@@ -14,7 +17,32 @@
     "url": "https://github.com/theRealPadster/winwheel-module/issues"
   },
   "homepage": "https://github.com/theRealPadster/winwheel-module#readme",
+  "targets": {
+    "default": {
+      "source": "src/Winwheel.js",
+      "context": "node",
+      "isLibrary": true,
+      "outputFormat": "commonjs",
+      "includeNodeModules": false,
+      "optimize": false,
+      "distDir": "dist"
+    },
+    "minified": {
+      "source": "src/Winwheel.js",
+      "context": "node",
+      "isLibrary": true,
+      "outputFormat": "commonjs",
+      "includeNodeModules": false,
+      "optimize": true,
+      "distDir": "dist"
+    }
+  },
+  "minified": "dist/Winwheel.min.js",
+  "default": "dist/Winwheel.js",
   "dependencies": {
     "gsap": "^3.11.3"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.2"
   }
 }
