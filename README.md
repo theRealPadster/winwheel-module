@@ -1,4 +1,4 @@
-# javascript-winwheel
+# winwheel-module
 Create spinning prize wheels on HTML canvas with winwheel-module, a fork of Winwheel.js
 
 ## Description
